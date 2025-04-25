@@ -17,7 +17,7 @@ This dataset provides 4-band SAR data, national-scale flood binary maps, and soc
 ## Figures
 
 ### Figure 1: The Architecture of CM-UNet Model
-The architecture of the **Convolutional Neural Network and Mamba combined UNet model (CM-UNet)**, designed for processing SAR imagery. The model uses both **VV** (Vertical transmission and Vertical reception) and **VH** (Vertical transmission and Horizontal reception) polarizations. Pre-T and Post-T represent the pre- and post-flood events, respectively. The model incorporates a **2D Selective Scan Module (SS2D)**, **Visual State-Space (VSS)**, and **Selective Scan Space State Sequential Model (S6)**. The tensor size in CM-UNet is represented as \( (H/L \times W/L \times C) \), with \( L \) taking values of 2, 4, and 8, and \( C \) representing the channels (128, 256, 512).
+The architecture of the **Convolutional Neural Network and Mamba combined UNet model (CM-UNet)**, designed for processing SAR imagery. The model uses both **VV** (Vertical transmission and Vertical reception) and **VH** (Vertical transmission and Horizontal reception) polarizations. Pre-T and Post-T represent the pre- and post-flood events, respectively. The model incorporates a **2D Selective Scan Module (SS2D)**, **Visual State-Space (VSS)**, and **Selective Scan Space State Sequential Model (S6)**. The tensor size in CM-UNet is represented as $\frac{H}{L}\times\frac{W}{L}\times C$, with $L$ taking values of 2, 4, and 8, and $C$ representing the channels (128, 256, 512).
 
 ![Figure 1](https://github.com/YuxinWei-SHOU/CM-UNet-for-SAR-Flood-Mapping/blob/c01417007421b2b3b5d7ddfb586325c4ea3c1c31/assets/Figure_1.jpg)
 
