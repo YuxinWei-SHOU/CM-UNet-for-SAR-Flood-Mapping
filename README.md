@@ -14,6 +14,9 @@ This dataset includes SAR imagery collected in Bangladesh from 2015 to 2024, spe
 This dataset provides 4-band SAR data, national-scale flood binary maps, and socioeconomic data (including land use, night-time light data, and population statistics) collected from 2015 to 2024.  
 [Download Dataset](https://zenodo.org/records/15255271)
 
+## Code Availability and Running Instructions
+The code is intended to run on **Linux** systems. Please ensure that all dependencies listed in `requirements.txt` are installed before execution.
+
 ## Figures
 
 ### Figure 1: The Architecture of CM-UNet Model
